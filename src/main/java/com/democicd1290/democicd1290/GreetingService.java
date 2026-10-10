@@ -5,6 +5,7 @@ import java.time.LocalTime;
 public class GreetingService {
      //Ajout d'un commentaire pour un nouveau commit
     //Deuxieme ligne parce que j'ai mal configurer le after build step dans le pipeline
+    //Troisieme commentaire
     public String greet(String name) {
         String safe = normalize(name);
         return "Hello " + safe;
