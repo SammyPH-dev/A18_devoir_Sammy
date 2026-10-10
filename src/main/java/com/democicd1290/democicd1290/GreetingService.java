@@ -3,7 +3,7 @@ package com.democicd1290.democicd1290;
 import java.time.LocalTime;
 
 public class GreetingService {
-
+     //Ajout d'un commentaire pour un nouveau commit
     public String greet(String name) {
         String safe = normalize(name);
         return "Hello " + safe;
